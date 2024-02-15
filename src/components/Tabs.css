@@ -1,0 +1,31 @@
+.heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.tab-item {
+  display: inline-flex;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 15px;
+  margin: 0 10px;
+  cursor: pointer;
+  border: none;
+  background: #4e016a;
+  border-radius: 10px;
+}
+
+.tab-item.active {
+  border-color: #000;
+  background: #a1d600;
+}
+
+.content {
+  padding: 20px 10px;
+  height: 300px;
+  overflow: auto;
+  background-color: #fff;
+  border-radius: 10px;
+}
